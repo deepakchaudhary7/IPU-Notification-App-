@@ -25,7 +25,7 @@ def send_mail(subject_heading, subject_link, receiver):
     smtpserver.ehlo()
     smtpserver.starttls()
     smtpserver.ehlo()
-    smtpserver.login('deepakvats97@gmail.com', '@btechece1#')
+    smtpserver.login('deepakvats97@gmail.com', password)
 
     smtpserver.sendmail('deepakvats97@gmail.com', recv, msg.as_string())
     smtpserver.quit()
