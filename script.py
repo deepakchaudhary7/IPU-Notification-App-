@@ -39,8 +39,9 @@ for i in links_list:
 
     notice_url.append(href)
     notice_subject.append(content)
-import ipdb; ipdb.set_trace()
+    
+#import ipdb; ipdb.set_trace()
 for i in range(0,len(notice_url)):
     for j in email:
         send_mail(notice_subject[i], notice_url[i], j)
-import ipdb; ipdb.set_trace()
+#import ipdb; ipdb.set_trace()
