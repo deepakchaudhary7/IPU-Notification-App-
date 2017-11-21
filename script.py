@@ -17,7 +17,7 @@ links_list = links.find_all('a')
 notice_subject = []
 notice_url     = []
 
-email = ['deepakvats97@gmail.com'] # MORE RECEIVERS HERE
+email = ['deepakvats97@gmail.com', 'kaushalsharma880@gmail.com'] # MORE RECEIVERS HERE
 
 chk = 0
 
