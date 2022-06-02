@@ -6,7 +6,7 @@ decorator==4.1.2
 enum34==1.1.6
 Flask==0.12.2
 gunicorn==19.4.5
-html5lib==0.999
+html5lib==0.99999999
 idna==2.6
 ipdb==0.10.3
 ipython==5.4.1
